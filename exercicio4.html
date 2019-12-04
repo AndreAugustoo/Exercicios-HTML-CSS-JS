@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 4</title>
+    <link rel="stylesheet" type="text/css" href="exercicio4.css" media="screen" />
+</head>
+<body>
+ 
+    <div id="exercicio4">
+        <h1>Controle de Consórcio</h1>
+        <label>Total de prestações: </label>
+        <input type="number" id="nPrest" placeholder="Número de prestações:"><br><br>
+        <label>Prestações pagas: </label>
+        <input type="number" id="nPrestPag" placeholder="Prestações pagas:"><br><br>        
+        <label>Valor das prestações: </label>
+        <input type="number" id="valPrest" placeholder="Valor das prestações:"><br><br>
+        <input type="button" value="Calcular" onclick="controleConsorcio()" >
+        <input type="button" value="Limpar" onclick="limparConsorcio()"> 
+        <p id="v1">Valor total: </p>
+        <p id="v2">Valor total pago: </p>
+        <p id="v3">Valor em aberto: </p>
+    </div>
+    
+    <script src="exercicio4.js"></script>
+
+</body>
+</html>
